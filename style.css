@@ -39,5 +39,8 @@ html {
     text-decoration: none;
   }
   
-  nav a:hover
+  .first-section {
+    background-color: rgb(59, 8, 139);
+
+  }
   
