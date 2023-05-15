@@ -1,2 +1,121 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lifehacks!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta description="Lifehacks to improve you everyday lifestyle">
+  <meta keywords="Lifehacks, health, Beauty, Home imporvement, everyday">
+  <meta author="Lifehacks!">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div id="home">
+    <h1>Lifehacks!</h1>
+    <p>Improve a way of life</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#Beauty">Beauty</a></li>
+      <li><a href="#Health">Health</a></li>
+      <li><a href="#Himprovement">Home improvement</a></li>
+      <li><a href="#Join">Join us</a></li>
+      <li><a href="#Contact">Social Media</a></li>
+    </ul>
+  </nav>
+<img src="index.html Lifehacks/Intro.jpg" width="670" height="450" alt="Girl in the air with a view">
+
+  
+  <main>
+    <section>
+      <div id="Beauty">
+      <h2>Beauty</h2>
+      <p>Here are some useful beauty lifehacks.</p>  
+        <img src="index.html Lifehacks/Beauty.jpg" alt="Green coffee mug" 
+             width="450" height="300">
+      <ul>
+        <li><a href="#">How to make your own natural face mask</a></li>
+        <li><a href="#">Quick and easy hairstyles for busy mornings</a></li>
+        <li><a href="#">How to fix broken makeup</a></li>
+      </ul>
+      </div>
+    </section>
+    <br>
+    
+    <section>
+      <div id="Health">
+      <h2>Health</h2>
+      <p>Your health should always be a main priority,<br>so check out some 
+       lifehacks for it.</p>
+        <img src="index.html Lifehacks/Health.jpg" alt="Green coffee mug" 
+             width="450" height="400">
+      <ul>
+        <li><a href="#">How to relieve stress naturally</a></li>
+        <li><a href="#">Easy exercises to do at home</a></li>
+        <li><a href="#">Healthy snack ideas for work</a></li>
+      </ul>
+      </div>
+    </section>
+
+    <br>
+    
+    <section>
+      <div id="Himprovement">
+      <h2>Home Improvement</h2>
+      <p>To joggle work, kids, relationsships and more,<br>it can be hard sometimes to find time 
+         for your home.<br>These lifehacks can lift some weight off your shoulders.</p>
+        <img src="index.html Lifehacks/Coffee.jpg" alt="Green coffee mug" 
+             width="500" height="300">
+      <ul>
+        <li><a href="#">How to paint a room like a pro</a></li>
+        <li><a href="#">Easy DIY home decor ideas</a></li>
+        <li><a href="#">How to organize your closet</a></li>
+      </ul>
+      </div>
+    </section>
+  </main>
+  <br>
+
+  <section>
+      <div id="Join">
+      <h3>Sign up for free and get access to more Lifehacks!</h3>   
+        <fieldset>
+		
+          <legend>Your details</legend>
+
+		<div>
+			<label for="name-field">Name</label>
+			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+		</div>
+		<div>
+			<label for="email-field">Email</label>
+			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+      <br>
+      <input type="submit"> 
+      <button type="reset">Reset information</button>
+		</div>
+	</fieldset>
+    </div> 
+    </section>
+  </main>
+  <br>
+  
+  <footer>
+    <div id="Contact">
+    <h3>Find us on your social media!</h3>
+  <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook" style="color: #4c3724;"></i></a>
+	
+  <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram" style="color: #4c3724;"></i></a>
+	
+  <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-twitter" style="color: #4c3724;"></i></a>
+    </div>
+    <p>Copywrite @ Lifehacks 2023</p>
+  </footer
+</body>
+</html>
