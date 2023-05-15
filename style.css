@@ -39,8 +39,14 @@ html {
     text-decoration: none;
   }
   
-  .first-section {
-    background-color: yellow;
+  .front-picture {
+    width: 1000px;
+    height: 500px;
 
   }
+  .front-picture-div {
+    display: flex;
+    justify-content: center;
+  }
+
   
