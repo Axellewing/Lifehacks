@@ -54,4 +54,28 @@ html {
     justify-content: center;
   }
 
+  .beauty-text {
+    font-size: 25px;
+    color: darkgrey;
+  }
+
+  .health-text {
+    font-size: 25px;
+    color: darkgrey;
+  }
+
+  .home-improvement-text {
+    font-size: 25px;
+    color: darkgray;
+  }
+
+  .join-us-text {
+    font-size: 25px;
+    color: darkgrey;
+  }
+
+ .social-media-text {
+    font-size: 25px;
+    color: darkgrey;
+  }
   
