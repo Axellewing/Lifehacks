@@ -8,6 +8,8 @@ This project has picture bugs.
 ![Skärmavbild 2023-05-16 kl  11 59 38](https://github.com/Axellewing/Lifehacks/assets/127880600/3e8425ab-2449-4b31-b8e1-873b67bb785d)
 ![Skärmavbild 2023-05-16 kl  11 59 54](https://github.com/Axellewing/Lifehacks/assets/127880600/42b1ebfa-20f3-48d8-afb5-da53c04da2a4)
 
+![Skärmavbild 2023-05-16 kl  12 44 58](https://github.com/Axellewing/Lifehacks/assets/127880600/f7327c55-224b-42ef-9bea-d812f456cf8a)
+
 ## Introduction
 Homepage have ID's for each section of the page. Click on one of them to jump to the right section. ![Skärmavbild 2023-05-16 kl  12 18 48](https://github.com/Axellewing/Lifehacks/assets/127880600/0c52d209-0702-400b-8117-12a2781ea9b0)
 
