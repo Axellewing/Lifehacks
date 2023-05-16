@@ -16,4 +16,5 @@ Each section have external links found from webpages and youtube. ![Skärmavbil
 ![Skä![Skärmavbild 2023-05-16 kl  12 18 00](https://github.com/Axellewing/Lifehacks/assets/127880600/3e648764-db26-4bcd-8b72-efb78f56a5f8)
 rmavbild 2023-05-16 kl  12 17 20](https://github.com/Axellewing/Lifehacks/assets/127880600/a44aabe4-ad5b-4e19-b8ea-b9d6cb02dad0)
 
-I used font-awesome icons for facebook, instagram and twitter. ![Skärmavbild 2023-05-16 kl  12 12 31](https://github.com/Axellewing/Lifehacks/assets/127880600/ef8567c0-1315-4309-9f9e-b5fe3833ea5c)
+I used font-awesome icons for facebook, instagram and twitter. 
+![Skärmavbild 2023-05-16 kl  12 12 31](https://github.com/Axellewing/Lifehacks/assets/127880600/ef8567c0-1315-4309-9f9e-b5fe3833ea5c)
