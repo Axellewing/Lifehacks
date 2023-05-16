@@ -20,6 +20,13 @@ html {
     text-align: center;
     font-size: 25px;
   }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px;
+  }
+
   
   nav {
     background-color: #f2f2f2;
@@ -52,11 +59,17 @@ html {
   .front-picture-div {
     display: flex;
     justify-content: center;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
   }
 
   .nav-bar-section {
     display: flex;
     justify-content: center;
+    padding: 15px;
   }
 
   .beauty-text {
