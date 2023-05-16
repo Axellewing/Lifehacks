@@ -21,14 +21,13 @@ rmavbild 2023-05-16 kl  12 17 20](https://github.com/Axellewing/Lifehacks/assets
 ![Skärmavbild 2023-05-16 kl  12 18 00](https://github.com/Axellewing/Lifehacks/assets/127880600/6d50fb0c-97f8-4f79-8f1b-4181f3705550)
 
 ## Pictures
-I took the pictures from unsplash.com
-[
-](https://unsplash.com/photos/m0l5J8Lqnzo)[
-](https://unsplash.com/photos/LEgwEaBVGMo) 
-[
-](https://unsplash.com/photos/1CsaVdwfIew) 
-[
-](https://unsplash.com/photos/0Pf7fKRtDPI)
+I took the pictures from unspalsh.com
+![peter-con![chris-jarvis-0Pf7fKRtDPI-unsplash]
+![chris-jarvis-0Pf7fKRtDPI-unsplash](https://github.com/Axellewing/Lifehacks/assets/127880600/99461798-f781-4fea-b8ae-eea0b265bff2)
+![edgar-castrejon-1CsaVdwfIew-unsplash](https://github.com/Axellewing/Lifehacks/assets/127880600/186dbc0f-5982-401a-b79e-043f8a5a1a3a)
+![Skärmavbild 2023-05-16 kl  13 50 18](https://github.com/Axellewing/Lifehacks/assets/127880600/7a9b9379-6ee2-4f1d-a93c-70c641295860)
+
+
 
 ## Icons
 I used font-awesome icons for facebook, instagram and twitter. 
