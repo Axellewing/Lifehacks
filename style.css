@@ -52,8 +52,10 @@ html {
   }
   
   .front-picture {
-    width: 1000px;
-    height: 500px;
+    width: 90%;
+    height: 40%;
+    /* width: 1000px; */
+    /* height: 500px; */
 
   }
   .front-picture-div {
@@ -63,7 +65,7 @@ html {
   }
 
   img {
-    width: 100%;
+    width: 55%;
   }
 
   .nav-bar-section {
