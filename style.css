@@ -193,21 +193,38 @@ html {
 
   .link-facebook {
     font-size: 30px;
-    display: table-row;
-    justify-content: space-around;
 
   }
 
   .link-instagram {
     font-size: 30px;
-    display: table-row;
-    justify-content: space-around;
 
   }
 
   .link-twitter {
     font-size: 30px;
-    display: table-row;
-    justify-content: space-around;
 
+  }
+
+  .boarder-sign-ups {
+    border: 2px solid rgb(76, 70, 53);
+	padding: 1rem;
+	margin: .5rem;
+
+  }
+
+  .Your-details-signup {
+    color: rgb(72, 59, 40);
+  }
+
+  .name-details {
+    color: rgb(72, 59, 40);
+  }
+
+  .name-email {
+    color: rgb(72, 59, 40);
+  }
+
+  .submit-join-us {
+    color: rgb(26, 76, 55);
   }
