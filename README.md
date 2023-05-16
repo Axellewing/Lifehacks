@@ -18,3 +18,6 @@ rmavbild 2023-05-16 kl  12 17 20](https://github.com/Axellewing/Lifehacks/assets
 
 I used font-awesome icons for facebook, instagram and twitter. 
 ![Skärmavbild 2023-05-16 kl  12 12 31](https://github.com/Axellewing/Lifehacks/assets/127880600/ef8567c0-1315-4309-9f9e-b5fe3833ea5c)
+
+##CSS
+I have styled everything in CSS. The colors of the page is a greenish color with a darkbrow background. With clear white-text for pop feeling. 
