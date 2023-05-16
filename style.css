@@ -80,4 +80,134 @@ html {
     color: darkgrey;
 
   }
+
+  .first-section {
+    font-size: 40px;
+    color: rgb(72, 59, 40);
+
+  }
+
   
+  .beauty-text-lifehack {
+    font-size: 20px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-facemask {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-hairstyles {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-makeup {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .secound-section {
+    font-size: 40px;
+    color: rgb(72, 59, 40);
+
+  }
+
+  .health-text-lifehack {
+    font-size: 20px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-stress {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-exercises {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+
+  .link-snack {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .third-section {
+    font-size: 40px;
+    color: rgb(72, 59, 40);
+
+  }
+
+  .himprovement-text-lifehack {
+    font-size: 20px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-paint {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-easy-diy {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .link-closet  {
+    font-size: 17px;
+    color: rgb(95, 104, 98);
+
+  }
+
+  .sign-up {
+    font-size: 20px;
+    color: rgb(72, 59, 40);
+
+  }
+
+  .Social-media {
+    font-size: 19px;
+    color: rgb(72, 59, 40);
+
+  }
+
+  .copywrite {
+    font-size: 17px;
+    color: rgb(72, 59, 40);
+
+  }
+
+  .link-facebook {
+    font-size: 30px;
+    display: table-row;
+    justify-content: space-around;
+
+  }
+
+  .link-instagram {
+    font-size: 30px;
+    display: table-row;
+    justify-content: space-around;
+
+  }
+
+  .link-twitter {
+    font-size: 30px;
+    display: table-row;
+    justify-content: space-around;
+
+  }
