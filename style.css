@@ -7,10 +7,9 @@ html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    @media screen { 
+    @media screen {
         background-color: #333;
-            
-        }
+    }           
   }
   
   header {
@@ -68,7 +67,7 @@ html {
     width: 55%;
   }
 
-  .nav-bar-section {
+  .first-bar-area {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -100,7 +99,7 @@ html {
 
   }
 
-  .first-section {
+  .first-area {
     font-size: 40px;
     color: white;
 
@@ -131,7 +130,7 @@ html {
 
   }
 
-  .secound-section {
+  .secound-area {
     font-size: 40px;
     color: white
 
@@ -162,7 +161,7 @@ html {
 
   }
 
-  .third-section {
+  .third-area {
     font-size: 40px;
     color: white
 
