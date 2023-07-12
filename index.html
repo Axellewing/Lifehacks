@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <!--Linking Roboto font from google fonts-->
+  <!--Linking Poppins font from google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
 
   <!--Linking Lobster font from google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,25 +28,53 @@
 <body>
   <!--Navigation of the webpage-->
   <nav>
-    <header id="home">
+    <div id="home">
       <h1 class="logo">Lifehacks!</h1>
-      <p class="sub-logo">Improve your way of life</p>
-    </header>
+    </div>
     <div class="nav-links">
       <a href="#Beauty" class="nav-item">Beauty</a>
       <a href="#Health" class="nav-item">Health</a>
       <a href="#Himprovement" class="nav-item">Home improvement</a>
-      <a href="#Join" class="nav-item">Join us</a>
-      <a href="#Contact" class="nav-item">Social Media</a>
     </div>
   </nav>
 
   <main>
-    <section class="section" id="beauty-container"></section>
+
+    <section class="hero">
+      <div class="hero-info">
+        Improve your way of life by following the best
+        collection of lifehacks, tips and tricks you
+        will find on the internet.
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1595814432314-90095f342694?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGltcHJvdmVtZW50c3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=600&q=60"
+        alt="woman painting wall" class="hero-img">
+    </section>
+
+    <section class="section" id="beauty-container">
+      <div class="heading">
+        <img
+          src="https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHwwfDB8fHwy&auto=format&fit=crop&w=600&q=60"
+          alt="collection of beauty products" class="section-heading-img">
+        <div class="section-heading-title">
+          Beauty Lifehacks and tips
+        </div>
+      </div>
+      <div class="table-of-content"></div>
+      <div class="video-section"></div>
+      <div class="video-section"></div>
+      <div class="video-section"></div>
+    </section>
+
+
+
     <section class="section" id="health-container"></section>
     <section class="section" id="diy-container"></section>
 
-    <section class="container">
+    <!--
+      Temporarily commenting out the old sections
+      for better work flow
+      <section class="container">
       <div id="Beauty">
         <h2 class="first-area">Beauty</h2>
         <p class="beauty-text-lifehack">Here are some useful beauty lifehacks.</p>
@@ -129,45 +157,43 @@
       </div>
     </section>
   </main>
-  <br />
+ -->
 
-  <section class="container">
-    <div id="Join">
-      <h3 class="sign-up">Sign up for free and get access to more Lifehacks!</h3>
-      <fieldset class="boarder-sign-ups">
-        <legend class="Your-details-signup">Your details</legend>
-        <form action="https://formdump.codeinstitute.net/">
-          <div>
-            <label for="name-field" class="name-details">Name</label>
-            <input id="name-field" type="text" name="full_name" placeholder="Your name" required />
-          </div>
-          <div>
-            <label for="email-field" class="name-email">Email</label>
-            <input id="email-field" type="email" name="email" placeholder="Your email" required />
-            <br />
-            <input type="submit" value="Join us!" class="submit-join-us">
-          </div>
-        </form>
-      </fieldset>
-    </div>
-  </section>
+    <footer class="footer">
+      <div class="footer-logo-container">
+        <h1 class="logo filter-logo">Lifehacks!</h1>
+      </div>
+      <div class="contact-form">
+        <h3 class="sign-up">Sign up for free and get access to more Lifehacks!</h3>
+        <fieldset class="border-contact-form">
+          <legend>Your details</legend>
+          <form action="https://formdump.codeinstitute.net/" class="contact-form-container">
+            <div class="input-container">
+              <label for="name-field" class="submit-label">Name</label>
+              <input class="submit-input" id="name-field" type="text" name="full_name" placeholder="Your name" required />
+            </div>
+            <div class="input-container">
+              <label for="email-field" class="submit-label">Email</label>
+              <input class="submit-input" id="email-field" type="email" name="email" placeholder="Your email" required />
+              <br />
+              <input type="submit" value="Join us!" class="submit-btn" />
+            </div>
+          </form>
+        </fieldset>
+      </div>
+      <div class="social-media-container">
+        <div id="Contact" class="container">
+          <a href="https://www.facebook.com" class="link-facebook" target="_blank" rel="noopener"><i
+              class="fa-brands fa-facebook" style="color: #000"></i></a>
 
-  <br />
+          <a href="https://www.instagram.com" class="link-instagram" target="_blank" rel="noopener"><i
+              class="fa-brands fa-instagram" style="color: #000"></i></a>
 
-  <footer>
-    <div id="Contact" class="container">
-      <h3 class="Social-media">Find us on your social media!</h3>
-      <a href="https://www.facebook.com" class="link-facebook" target="_blank" rel="noopener"><i
-          class="fa-brands fa-facebook" style="color: #4d6451"></i></a>
-
-      <a href="https://www.instagram.com" class="link-instagram" target="_blank" rel="noopener"><i
-          class="fa-brands fa-instagram" style="color: #4d5451"></i></a>
-
-      <a href="https://www.twitter.com" class="link-twitter" target="_blank" rel="noopener"><i
-          class="fa-brands fa-square-twitter" style="color: #4d6451"></i></a>
-    </div>
-    <p class="copywrite">Copywrite @ Lifehacks 2023</p>
-  </footer>
+          <a href="https://www.twitter.com" class="link-twitter" target="_blank" rel="noopener"><i
+              class="fa-brands fa-square-twitter" style="color: #000"></i></a>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>
