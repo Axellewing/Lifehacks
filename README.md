@@ -14,11 +14,21 @@ This project has picture bugs.
 ## Introduction
 Homepage have ID's for each section of the page. Click on one of them to jump to the right section. ![Skärmavbild 2023-05-16 kl  12 18 48](https://github.com/Axellewing/Lifehacks/assets/127880600/0c52d209-0702-400b-8117-12a2781ea9b0)
 
-## Sections and code
+## Sections
 Each section have external links found from webpages and youtube. ![Skärmavbild 2023-05-16 kl  12 16 41](https://github.com/Axellewing/Lifehacks/assets/127880600/6ac4890c-30fd-4dae-9eb3-619f5dd3d783)
 ![Skä![Skärmavbild 2023-05-16 kl  12 18 00](https://github.com/Axellewing/Lifehacks/assets/127880600/3e648764-db26-4bcd-8b72-efb78f56a5f8)
 rmavbild 2023-05-16 kl  12 17 20](https://github.com/Axellewing/Lifehacks/assets/127880600/a44aabe4-ad5b-4e19-b8ea-b9d6cb02dad0)
+![Skärmavbild 2023-05-16 kl  12 18 00](https://github.com/Axellewing/Lifehacks/assets/127880600/6d50fb0c-97f8-4f79-8f1b-4181f3705550)
 
+## Pictures
+I took the pictures from unspalsh.com
+![chris-jarvis-0Pf7fKRtDPI-unsplash](https://github.com/Axellewing/Lifehacks/assets/127880600/99461798-f781-4fea-b8ae-eea0b265bff2)
+![edgar-castrejon-1CsaVdwfIew-unsplash](https://github.com/Axellewing/Lifehacks/assets/127880600/186dbc0f-5982-401a-b79e-043f8a5a1a3a)
+![Skärmavbild 2023-05-16 kl  13 50 18](https://github.com/Axellewing/Lifehacks/assets/127880600/7a9b9379-6ee2-4f1d-a93c-70c641295860)
+
+
+
+## Icons
 I used font-awesome icons for facebook, instagram and twitter. 
 ![Skärmavbild 2023-05-16 kl  12 12 31](https://github.com/Axellewing/Lifehacks/assets/127880600/ef8567c0-1315-4309-9f9e-b5fe3833ea5c)
 
