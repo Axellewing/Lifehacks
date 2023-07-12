@@ -1,0 +1,344 @@
+/*Creating global variables for easier editing/styling of the page*/
+:root {
+  --bg-color: #131617;
+  --font-color: #fff;
+  --link-color: #fff;
+  --font-family: "Poppins";
+  --nav-font: "Lobster";
+  --nav-color: #0b337c;
+  --footer-bg: #D5966C;
+}
+
+/*Applying global styles for the webpage*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Styling the body of the page*/
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: var(--font-family), sans-serif;
+  font-size: 16px;
+}
+
+/*Styling the navigation bar of the page*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--nav-font), cursive;
+  color: var(--font-color);
+  padding: 30px 75px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 66px;
+  position: relative;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background-color: var(--nav-color);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(-8deg);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: all .3s ease;
+  position: relative;
+}
+
+.nav-item:hover::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background-color: var(--nav-color);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(-8deg);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+a:visited {
+  color: #fff;
+}
+
+
+/*Styling the hero section of the page*/
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 55px 75px;
+}
+
+.hero-img {
+  max-width: 550px;
+  margin-bottom: 20px;
+}
+
+.hero-info {
+  font-size: 24px;
+  max-width: 550px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*Styling the beauty section of the webpage*/
+
+.section {
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading-img {
+  width: 550px;
+}
+
+.front-picture {
+  width: 90%;
+  /* width: 1000px; */
+  /* height: 500px; */
+
+}
+
+.front-picture-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  width: 55%;
+}
+
+.first-area {
+  font-size: 40px;
+  color: white;
+
+}
+
+
+.beauty-text-lifehack {
+  font-size: 20px;
+  color: white
+}
+
+.link-facemask {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.link-hairstyles {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.link-makeup {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.secound-area {
+  font-size: 40px;
+  color: white
+}
+
+.health-text-lifehack {
+  font-size: 20px;
+  color: white
+}
+
+.link-stress {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.link-exercises {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+
+.link-snack {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.third-area {
+  font-size: 40px;
+  color: white
+}
+
+.himprovement-text-lifehack {
+  font-size: 20px;
+  color: white
+}
+
+.link-paint {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.link-easy-diy {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+.link-closet {
+  font-size: 17px;
+  color: rgb(95, 104, 98);
+
+}
+
+
+.Social-media {
+  font-size: 19px;
+  color: white;
+
+}
+
+.copywrite {
+  font-size: 17px;
+  color: white;
+
+}
+
+.link-facebook {
+  font-size: 30px;
+
+}
+
+.link-instagram {
+  font-size: 30px;
+
+}
+
+.link-twitter {
+  font-size: 30px;
+
+}
+
+.name-details {
+  color: rgb(95, 104, 98);
+}
+
+.name-email {
+  color: rgb(95, 104, 98);
+}
+
+.submit-join-us {
+  color: rgb(95, 104, 98);
+}
+
+
+/*Styling the footer of the webpage*/
+
+.footer {
+  background-color: var(--footer-bg);
+  color: #000;
+  padding: 25px 55px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo.filter-logo {
+  color: #000;
+  z-index: 10;
+  font-size: 42px;
+}
+
+.logo.filter-logo::before {
+  background-color: #9b6b4c;
+}
+
+
+.contact-form {
+  color: #000;
+}
+
+.border-contact-form {
+  border: 2px solid #000;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  margin-bottom: 12px;
+}
+
+.submit-label {
+  color: #000;
+}
+
+.submit-input {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #000;
+  color: var(--footer-bg);
+  border: none;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 12px;
+  cursor: pointer;
+}
