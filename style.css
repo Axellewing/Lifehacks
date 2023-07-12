@@ -1,58 +1,79 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
+:root {
+  /*Creating global variables for easier editing/styling of the page*/
+  --bg-color: #17223b;
+  --font-color: #fff;
+  --link-color: #fff;
+  --font-family: "Roboto Condensed";
+  --logo-font: "Lobster";
+  --nav-color: #1045a8;
+}
+
+/*Applying global styles for the webpage*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Styling the body of the page*/
 
   body {
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    font-family: Arial, sans-serif;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: var(--font-family), sans-serif;
+    font-size: 16px;
   }
-
-  @media only screen and (max-width: 800px) {
-    body {
-      background-color: rgb(118, 114, 114);
-    }
-  }  
   
   header {
-    background-color: #484848;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-    border: 2px;
+  .logo {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-family: var(--logo-font), cursive;
+  }
+
+  .sub-logo {
+    font-size: 15px;
   }
 
   
   nav {
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--nav-color);
+    color: var(--font-color);
+    padding: 25px 75px;
   }
   
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    display: block;
-    padding: 10px;
-    color: #333;
+  .nav-item {
+    color: #fff;
     text-decoration: none;
+    cursor: pointer;
+    margin: 0 20px;
+  }
+
+  .nav-item:hover {
+    color: black;
+  }
+
+  a:visited {
+    color: #fff;
   }
   
   .front-picture {
@@ -69,38 +90,6 @@ html {
 
   img {
     width: 55%;
-  }
-
-  .first-bar-area {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-  }
-
-  .beauty-text {
-    font-size: 25px;
-    color: darkgrey;
-  }
-
-  .health-text {
-    font-size: 25px;
-    color: darkgrey;
-  }
-
-  .home-improvement-text {
-    font-size: 25px;
-    color: darkgrey;
-  }
-
-  .join-us-text {
-    font-size: 25px;
-    color: darkgrey;
-  }
-
- .social-media-text {
-    font-size: 25px;
-    color: darkgrey;
-
   }
 
   .first-area {
