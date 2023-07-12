@@ -5,7 +5,7 @@
   --link-color: #fff;
   --font-family: "Poppins";
   --nav-font: "Lobster";
-  --nav-color: #0b337c;
+  --nav-color: #0449c9;
   --footer-bg: #D5966C;
 }
 
@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /*Styling the body of the page*/
@@ -21,22 +22,34 @@
 body {
   max-width: 1440px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   background-color: var(--bg-color);
   color: var(--font-color);
   font-family: var(--font-family), sans-serif;
   font-size: 16px;
 }
 
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Styling the navigation bar of the page*/
 nav {
+  background-color: var(--bg-color);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: var(--nav-font), cursive;
   color: var(--font-color);
-  padding: 30px 75px;
+  padding: 1.2rem 4.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #dddddd60;
 }
 
 .logo {
@@ -44,6 +57,7 @@ nav {
   padding: 0;
   font-size: 66px;
   position: relative;
+  cursor: pointer;
 }
 
 .logo::before {
@@ -88,8 +102,32 @@ nav {
   z-index: -1;
 }
 
-a:visited {
+.nav-item:visited {
   color: #fff;
+}
+
+/*Making navigational bar responsive*/
+
+@media (max-width: 850px) {
+  nav {
+    padding: 1rem 2rem;
+  }
+  .logo {
+    font-size: 40px;
+  }
+  .nav-item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .logo {
+    margin-bottom: 1.5rem;
+  }
 }
 
 
@@ -98,10 +136,12 @@ a:visited {
 .hero {
   min-height: 80vh;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 55px 75px;
+  padding: 55px;
+  padding-top: 130px;
+  margin-bottom: 2rem;
 }
 
 .hero-img {
@@ -109,175 +149,89 @@ a:visited {
   margin-bottom: 20px;
 }
 
-.hero-info {
-  font-size: 24px;
-  max-width: 550px;
+.hero-heading {
+  font-size: 36px;
   font-weight: 700;
+  max-width: 60%;
   text-align: center;
+  color: #ddd;
+  margin-bottom: 20px;
 }
 
 /*Styling the beauty section of the webpage*/
 
 .section {
-  min-width: 100vh;
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.section-heading-title {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .section-heading-img {
   width: 550px;
 }
 
-.front-picture {
-  width: 90%;
-  /* width: 1000px; */
-  /* height: 500px; */
-
-}
-
-.front-picture-div {
+.table-of-content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  max-width: 20rem;
 }
 
-img {
-  width: 55%;
+.table-heading {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
 }
 
-.first-area {
-  font-size: 40px;
-  color: white;
-
-}
-
-
-.beauty-text-lifehack {
-  font-size: 20px;
-  color: white
-}
-
-.link-facemask {
+.list-table-link {
+  color: dodgerblue;
   font-size: 17px;
-  color: rgb(95, 104, 98);
-
 }
 
-.link-hairstyles {
+.video-section {
+  margin: 2rem 0;
+}
+
+.video-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hack-info {
+  text-align: center;
   font-size: 17px;
-  color: rgb(95, 104, 98);
-
 }
 
-.link-makeup {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
+/*Styling the embeded video from YouTube*/
 
+.video-embed-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
 }
 
-.secound-area {
-  font-size: 40px;
-  color: white
-}
-
-.health-text-lifehack {
-  font-size: 20px;
-  color: white
-}
-
-.link-stress {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
-
-}
-
-.link-exercises {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
-
-}
-
-
-.link-snack {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
-
-}
-
-.third-area {
-  font-size: 40px;
-  color: white
-}
-
-.himprovement-text-lifehack {
-  font-size: 20px;
-  color: white
-}
-
-.link-paint {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
-
-}
-
-.link-easy-diy {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
-
-}
-
-.link-closet {
-  font-size: 17px;
-  color: rgb(95, 104, 98);
-
-}
-
-
-.Social-media {
-  font-size: 19px;
-  color: white;
-
-}
-
-.copywrite {
-  font-size: 17px;
-  color: white;
-
-}
-
-.link-facebook {
-  font-size: 30px;
-
-}
-
-.link-instagram {
-  font-size: 30px;
-
-}
-
-.link-twitter {
-  font-size: 30px;
-
-}
-
-.name-details {
-  color: rgb(95, 104, 98);
-}
-
-.name-email {
-  color: rgb(95, 104, 98);
-}
-
-.submit-join-us {
-  color: rgb(95, 104, 98);
+.video-embed {
+  height: 320px;
+  aspect-ratio: 16/9;
 }
 
 
 /*Styling the footer of the webpage*/
 
 .footer {
+  width: 100%;
   background-color: var(--footer-bg);
   color: #000;
   padding: 25px 55px;
@@ -323,12 +277,19 @@ img {
   color: #000;
 }
 
+.sign-up {
+  margin: 0;
+  padding: 0;
+  max-width: 20rem;
+  text-align: center;
+}
+
 .submit-input {
   background-color: transparent;
   color: #000;
   border: 1px solid #000;
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: .3rem 1rem;
 }
 
 .submit-btn {
@@ -340,5 +301,51 @@ img {
   padding: 12px;
   border-radius: 6px;
   margin-top: 12px;
-  cursor: pointer;
+  cursor: pointer
+}
+
+.fa-brands {
+  font-size: 2rem;
+  margin: 0 .5rem;
+}
+
+/*Making the Footer responsive*/
+
+@media (max-width: 987px) {
+  .footer {
+    padding: 1.5rem 2rem;
+  }
+  .logo.filter-logo {
+    font-size: 32px;
+  }
+  .sign-up {
+    font-size: 18px;
+    max-width: 15rem;
+  }
+  .fa-brands {
+    font-size: 1.5rem;
+    margin: 0 .4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .logo.filter-logo {
+    font-size: 55px;
+    margin-bottom: 2rem;
+  }
+  .contact-form {
+    margin-bottom: 2rem;
+  }
+  .fa-brands {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo.filter-logo {
+    font-size: 36px;
+  }
 }
