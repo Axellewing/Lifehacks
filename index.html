@@ -1,225 +1,173 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta description="Lifehacks to improve your everyday lifestyle"> -->
-    <!-- <meta keywords="Lifehacks!, Beauty, Health, Home improvement, everyday life"> -->
-    <!-- <meta author="Lifehacks!"> -->
 
-    <title>Lifehacks!</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta description="Lifehacks to improve your everyday lifestyle"> -->
+  <!-- <meta keywords="Lifehacks!, Beauty, Health, Home improvement, everyday life"> -->
+  <!-- <meta author="Lifehacks!"> -->
 
-    <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <div id="home" class="container">
-        <h1>Lifehacks!</h1>
-        <p>Improve a way of life</p>
-      </div>
+  <title>Lifehacks!</title>
+
+  <!--Linking stylesheets and font awersome for the socail media icons-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!--Linking Roboto font from google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--Linking Lobster font from google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Navigation of the webpage-->
+  <nav>
+    <header id="home">
+      <h1 class="logo">Lifehacks!</h1>
+      <p class="sub-logo">Improve your way of life</p>
     </header>
-
-    <nav>
-        <div class="first-bar-area">
-      <ul class="container"> 
-        <li><a href="#Beauty" class="beauty-text">Beauty</a></li>
-        <li><a href="#Health" class="health-text">Health</a></li>
-        <li><a href="#Himprovement" class="home-improvement-text">Home improvement</a></li>
-        <li><a href="#Join" class="join-us-text">Join us</a></li>
-        <li><a href="#Contact" class="social-media-text">Social Media</a></li>
-      </ul>
+    <div class="nav-links">
+      <a href="#Beauty" class="nav-item">Beauty</a>
+      <a href="#Health" class="nav-item">Health</a>
+      <a href="#Himprovement" class="nav-item">Home improvement</a>
+      <a href="#Join" class="nav-item">Join us</a>
+      <a href="#Contact" class="nav-item">Social Media</a>
     </div>
-</nav>
-    <div class="front-picture-div">
-      <img 
-      class="front-picture"
-        src="peter-conlan-LEgwEaBVGMo-unsplash.jpg"
-        alt="Girl in the air with a view"
-      />
-    </div>
+  </nav>
 
-    <main>
-      <section class="container">
-        <div id="Beauty">
-          <h2 class="first-area">Beauty</h2>
-          <p class="beauty-text-lifehack">Here are some useful beauty lifehacks.</p>
+  <main>
+    <section class="section" id="beauty-container"></section>
+    <section class="section" id="health-container"></section>
+    <section class="section" id="diy-container"></section>
 
-          <img
-            src="chris-jarvis-0Pf7fKRtDPI-unsplash.jpg"
-            alt="hands with white flowers on them"
-            width="550"
-            height="350"
-          />
+    <section class="container">
+      <div id="Beauty">
+        <h2 class="first-area">Beauty</h2>
+        <p class="beauty-text-lifehack">Here are some useful beauty lifehacks.</p>
 
-          <ul>
-            <li>
-              <a
-                href="https://www.ipsy.com/blog/diy-face-mask-recipes"
-                target="_blank" class="link-facemask"
-                >How to make your own natural face mask</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.allthingshair.com/en-us/hairstyles-haircuts/easy-quick-hairstyles/simple-hairstyles-for-busy-mornings/"
-                target="_blank" class="link-hairstyles"
-                >Quick and easy hairstyles for busy mornings</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.masterclass.com/articles/how-to-fix-broken-makeup"
-                target="_blank" class="link-makeup"
-                >How to fix broken makeup</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-      <br />
+        <img src="chris-jarvis-0Pf7fKRtDPI-unsplash.jpg" alt="hands with white flowers on them" width="550"
+          height="350" />
 
-      <section class="container">
-        <div id="Health">
-          <h2 class="secound-area">Health</h2>
-          <p class="health-text-lifehack">
-            Your health should always be a main priority,<br />so check out some
-            lifehacks for it.
-          </p>
-
-          <img
-            src="edgar-castrejon-1CsaVdwfIew-unsplash.jpg"
-            alt="fruits on a table"
-            width="550"
-            height="500"
-          />
-
-          <ul>
-            <li>
-              <a
-                href="https://www.healthline.com/nutrition/16-ways-relieve-stress-anxiety"
-                target="_blank" class="link-stress"
-                >How to relieve stress naturally</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://healthy.kaiserpermanente.org/health-wellness/healtharticle.7-simple-exercises-you-can-do-at-home"
-                target="_blank" class="link-exercises"
-                >Easy exercises to do at home</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.delish.com/cooking/nutrition/g600/healthy-snacks-for-work/?slide=13"
-                target="_blank" class="link-snack"
-                >Healthy snack ideas for work</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <br />
-
-      <section class="container">
-        <div id="Himprovement">
-          <h2 class="third-area">Home Improvement</h2>
-          <p class="himprovement-text-lifehack">
-            To joggle work, kids, relationsships and more,<br />it can be hard
-            sometimes to find time for your home.<br />These lifehacks can lift
-            some weight off your shoulders.
-          </p>
-
-          <img
-            src="greenmug.jpg"
-            alt="Green coffee mug"
-            width="500"
-            height="300"
-          />
-
-          <ul>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=eiIq0VWeZMM"
-                target="_blank" class="link-paint"
-                >How to paint a room like a pro</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.homedit.com/home-decor-hacks/"
-                target="_blank" class="link-easy-diy"
-                >Easy DIY home decor ideas</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/watch?v=juNxDdbH9x8"
-                target="_blank" class="link-closet"
-                >How to organize your closet</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
+        <ul>
+          <li>
+            <a href="https://www.ipsy.com/blog/diy-face-mask-recipes" target="_blank" class="link-facemask">How to make
+              your own natural face mask</a>
+          </li>
+          <li>
+            <a href="https://www.allthingshair.com/en-us/hairstyles-haircuts/easy-quick-hairstyles/simple-hairstyles-for-busy-mornings/"
+              target="_blank" class="link-hairstyles">Quick and easy hairstyles for busy mornings</a>
+          </li>
+          <li>
+            <a href="https://www.masterclass.com/articles/how-to-fix-broken-makeup" target="_blank"
+              class="link-makeup">How to fix broken makeup</a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <br />
 
     <section class="container">
-      <div id="Join">
-        <h3 class="sign-up">Sign up for free and get access to more Lifehacks!</h3>
-        <fieldset class="boarder-sign-ups">
-          <legend class="Your-details-signup">Your details</legend>
-          <form action="https://formdump.codeinstitute.net/">
-          <div>
-            <label for="name-field" class="name-details">Name</label>
-            <input
-              id="name-field"
-              type="text"
-              name="full_name"
-              placeholder="Your name"
-              required
-            />
-          </div>
-          <div>
-            <label for="email-field" class="name-email">Email</label>
-            <input
-              id="email-field"
-              type="email"
-              name="email"
-              placeholder="Your email"
-              required
-            />
-            <br />
-            <input type="submit" value="Join us!" class="submit-join-us">
-          </div>
-        </form>
-        </fieldset>
+      <div id="Health">
+        <h2 class="secound-area">Health</h2>
+        <p class="health-text-lifehack">
+          Your health should always be a main priority,<br />so check out some
+          lifehacks for it.
+        </p>
+
+        <img src="edgar-castrejon-1CsaVdwfIew-unsplash.jpg" alt="fruits on a table" width="550" height="500" />
+
+        <ul>
+          <li>
+            <a href="https://www.healthline.com/nutrition/16-ways-relieve-stress-anxiety" target="_blank"
+              class="link-stress">How to relieve stress naturally</a>
+          </li>
+          <li>
+            <a href="https://healthy.kaiserpermanente.org/health-wellness/healtharticle.7-simple-exercises-you-can-do-at-home"
+              target="_blank" class="link-exercises">Easy exercises to do at home</a>
+          </li>
+          <li>
+            <a href="https://www.delish.com/cooking/nutrition/g600/healthy-snacks-for-work/?slide=13" target="_blank"
+              class="link-snack">Healthy snack ideas for work</a>
+          </li>
+        </ul>
       </div>
     </section>
 
     <br />
 
-    <footer>
-        <div id="Contact" class="container">
-          <h3 class="Social-media">Find us on your social media!</h3>
-          <a href="https://www.facebook.com" class="link-facebook" target="_blank" rel="noopener"
-            ><i class="fa-brands fa-facebook" style="color: #4d6451"></i
-          ></a>
+    <section class="container">
+      <div id="Himprovement">
+        <h2 class="third-area">Home Improvement</h2>
+        <p class="himprovement-text-lifehack">
+          To joggle work, kids, relationsships and more,<br />it can be hard
+          sometimes to find time for your home.<br />These lifehacks can lift
+          some weight off your shoulders.
+        </p>
 
-          <a href="https://www.instagram.com" class="link-instagram" target="_blank" rel="noopener"
-            ><i class="fa-brands fa-instagram" style="color: #4d5451"></i
-          ></a>
+        <img src="greenmug.jpg" alt="Green coffee mug" width="500" height="300" />
 
-          <a href="https://www.twitter.com" class="link-twitter" target="_blank" rel="noopener"
-            ><i class="fa-brands fa-square-twitter" style="color: #4d6451"></i
-          ></a>
-        </div>
-        <p class="copywrite">Copywrite @ Lifehacks 2023</p>
-    </footer>
-  </body>
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=eiIq0VWeZMM" target="_blank" class="link-paint">How to paint a room
+              like a pro</a>
+          </li>
+          <li>
+            <a href="https://www.homedit.com/home-decor-hacks/" target="_blank" class="link-easy-diy">Easy DIY home
+              decor ideas</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=juNxDdbH9x8" target="_blank" class="link-closet">How to organize
+              your closet</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <br />
+
+  <section class="container">
+    <div id="Join">
+      <h3 class="sign-up">Sign up for free and get access to more Lifehacks!</h3>
+      <fieldset class="boarder-sign-ups">
+        <legend class="Your-details-signup">Your details</legend>
+        <form action="https://formdump.codeinstitute.net/">
+          <div>
+            <label for="name-field" class="name-details">Name</label>
+            <input id="name-field" type="text" name="full_name" placeholder="Your name" required />
+          </div>
+          <div>
+            <label for="email-field" class="name-email">Email</label>
+            <input id="email-field" type="email" name="email" placeholder="Your email" required />
+            <br />
+            <input type="submit" value="Join us!" class="submit-join-us">
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </section>
+
+  <br />
+
+  <footer>
+    <div id="Contact" class="container">
+      <h3 class="Social-media">Find us on your social media!</h3>
+      <a href="https://www.facebook.com" class="link-facebook" target="_blank" rel="noopener"><i
+          class="fa-brands fa-facebook" style="color: #4d6451"></i></a>
+
+      <a href="https://www.instagram.com" class="link-instagram" target="_blank" rel="noopener"><i
+          class="fa-brands fa-instagram" style="color: #4d5451"></i></a>
+
+      <a href="https://www.twitter.com" class="link-twitter" target="_blank" rel="noopener"><i
+          class="fa-brands fa-square-twitter" style="color: #4d6451"></i></a>
+    </div>
+    <p class="copywrite">Copywrite @ Lifehacks 2023</p>
+  </footer>
+</body>
+
 </html>
