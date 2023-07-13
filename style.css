@@ -158,7 +158,38 @@ nav {
   margin-bottom: 20px;
 }
 
-/*Styling the beauty section of the webpage*/
+/*Making the hero section responsive*/
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem;
+    padding-top: 120px;
+  }
+  .hero-img {
+    max-width: 400px;
+  }
+  .hero-heading {
+    max-width: 80%;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero {
+    padding: 2rem 0;
+    padding-top: 150px;
+  }
+  .hero-img {
+    max-width: 100%;
+  }
+  .hero-heading {
+    font-size: 22px;
+    max-width: 90%;
+  }
+}
+
+
+/*Styling the lifehacks sections of the webpage*/
 
 .section {
   max-width: 550px;
@@ -171,7 +202,7 @@ nav {
 
 .section-heading-title {
   font-size: 28px;
-  margin-bottom: 1rem;
+  margin:0 1rem 1rem 1rem;
   text-align: center;
 }
 
@@ -179,33 +210,19 @@ nav {
   width: 550px;
 }
 
-.table-of-content {
+.video-section {
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 20rem;
-}
-
-.table-heading {
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-}
-
-.list-table-link {
-  color: dodgerblue;
-  font-size: 17px;
-}
-
-.video-section {
-  margin: 2rem 0;
 }
 
 .video-title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
+  max-width: 65%;
 }
 
 .hack-info {
@@ -227,6 +244,38 @@ nav {
   aspect-ratio: 16/9;
 }
 
+/*Making the lifehacks sections of the page responsive*/
+
+@media (max-width: 768px) {
+  .section-heading-img {
+    max-width: 400px;
+  }
+  .video-title {
+    font-size: 22px;
+    margin: 0 1rem;
+    max-width: 100%;
+  }
+  .video-embed {
+    height: 240px;
+  }
+  .hack-info {
+    margin: 0 1rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .section-heading-img {
+    max-width: 100%;
+  }
+  .video-title {
+    margin: 0 1rem;
+    font-size: 18px;
+  }
+  .video-embed {
+    height: 45vw;
+  }
+}
 
 /*Styling the footer of the webpage*/
 
