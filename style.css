@@ -1,12 +1,11 @@
 /*Creating global variables for easier editing/styling of the page*/
 :root {
-  --bg-color: #131617;
-  --font-color: #fff;
-  --link-color: #fff;
+  --bg-color: #DEE0E3;
+  --font-color: #000000;
+  --footer-bg: #00e695;
+  --nav-color: #00e695;
   --font-family: "Poppins";
   --nav-font: "Lobster";
-  --nav-color: #0449c9;
-  --footer-bg: #D5966C;
 }
 
 .test-section {
@@ -56,7 +55,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 1px solid #dddddd60;
+  border-bottom: 1px solid #00000090;
 }
 
 .logo {
@@ -88,7 +87,7 @@ nav {
 
 .nav-item {
   font-size: 20px;
-  color: #fff;
+  color: var(--font-color);
   text-decoration: none;
   cursor: pointer;
   margin: 0 20px;
@@ -110,7 +109,7 @@ nav {
 }
 
 .nav-item:visited {
-  color: #fff;
+  color: var(--font-color);
 }
 
 /*Making navigational bar responsive*/
@@ -119,9 +118,11 @@ nav {
   nav {
     padding: 1rem 2rem;
   }
+
   .logo {
     font-size: 40px;
   }
+
   .nav-item {
     font-size: 16px;
   }
@@ -132,6 +133,7 @@ nav {
     flex-direction: column;
     padding: 1rem;
   }
+
   .logo {
     margin-bottom: 1.5rem;
   }
@@ -172,9 +174,11 @@ nav {
     padding: 2rem;
     padding-top: 120px;
   }
+
   .hero-img {
     max-width: 400px;
   }
+
   .hero-heading {
     max-width: 80%;
     font-size: 26px;
@@ -186,9 +190,11 @@ nav {
     padding: 2rem 0;
     padding-top: 150px;
   }
+
   .hero-img {
     max-width: 100%;
   }
+
   .hero-heading {
     font-size: 22px;
     max-width: 90%;
@@ -209,7 +215,7 @@ nav {
 
 .section-heading-title {
   font-size: 28px;
-  margin:0 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
   text-align: center;
 }
 
@@ -258,14 +264,17 @@ nav {
   .section-heading-img {
     max-width: 400px;
   }
+
   .video-title {
     font-size: 22px;
     margin: 0 1rem;
     max-width: 100%;
   }
+
   .video-embed {
     height: 240px;
   }
+
   .hack-info {
     margin: 0 1rem;
     font-size: 16px;
@@ -276,10 +285,12 @@ nav {
   .section-heading-img {
     max-width: 100%;
   }
+
   .video-title {
     margin: 0 1rem;
     font-size: 18px;
   }
+
   .video-embed {
     height: 45vw;
   }
@@ -305,7 +316,7 @@ nav {
 }
 
 .logo.filter-logo::before {
-  background-color: #9b6b4c;
+  background-color: #006b4480;
 }
 
 
@@ -372,13 +383,16 @@ nav {
   .footer {
     padding: 1.5rem 2rem;
   }
+
   .logo.filter-logo {
     font-size: 32px;
   }
+
   .sign-up {
     font-size: 18px;
     max-width: 15rem;
   }
+
   .fa-brands {
     font-size: 1.5rem;
     margin: 0 .4rem;
@@ -389,13 +403,16 @@ nav {
   .footer {
     flex-direction: column;
   }
+
   .logo.filter-logo {
     font-size: 55px;
     margin-bottom: 2rem;
   }
+
   .contact-form {
     margin-bottom: 2rem;
   }
+
   .fa-brands {
     font-size: 2rem;
   }
