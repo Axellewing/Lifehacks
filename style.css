@@ -153,9 +153,13 @@ nav {
   margin-bottom: 2rem;
 }
 
-.hero-img {
-  max-width: 550px;
-  margin-bottom: 20px;
+.hero-img-container {
+  width: 100vw;
+  height: 450px;
+  background-image: url("https://images.unsplash.com/photo-1595814432314-90095f342694?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGltcHJvdmVtZW50c3xlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&");
+  background-position: 0 88%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-heading {
@@ -163,7 +167,7 @@ nav {
   font-weight: 700;
   max-width: 60%;
   text-align: center;
-  color: #ddd;
+  color: var(--font-color);
   margin-bottom: 20px;
 }
 
@@ -213,6 +217,10 @@ nav {
   margin-bottom: 4rem;
 }
 
+.heading {
+  margin-bottom: 5rem;
+}
+
 .section-heading-title {
   font-size: 28px;
   margin: 0 1rem 1rem 1rem;
@@ -224,21 +232,33 @@ nav {
 }
 
 .video-section {
-  margin: 2rem 0;
+  margin: 6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75vw;
+}
+
+.video-section:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.hack-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 25rem;
 }
 
 .video-title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
-  max-width: 65%;
+  margin-bottom: 1rem;
 }
 
-.hack-info {
+.hack-description {
   text-align: center;
   font-size: 17px;
 }
@@ -249,7 +269,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
 }
 
 .video-embed {
