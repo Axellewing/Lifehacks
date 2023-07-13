@@ -9,6 +9,13 @@
   --footer-bg: #D5966C;
 }
 
+.test-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Applying global styles for the webpage*/
 * {
   margin: 0;
@@ -242,6 +249,7 @@ nav {
 .video-embed {
   height: 320px;
   aspect-ratio: 16/9;
+  border: none;
 }
 
 /*Making the lifehacks sections of the page responsive*/
