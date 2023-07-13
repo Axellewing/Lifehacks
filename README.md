@@ -28,6 +28,16 @@ know how to reach the part of the page they want.
 Each lifehack has a corresponding video embedded within the webpage that the users can view on the page 
 or leave the page and watch the video on YouTube
 
+# Hover Effects 
+
+![](./assets/screenshots/nav-hover.png)
+
+This website contains hover effects for:
+
+- Navigation bar
+- Footer Social Media Links
+- Contact Form Submit Button
+
 # Website Validation
 
 ![](./assets/screenshots/html-validation.png)
